@@ -17,7 +17,7 @@
   },
   "about": {
     "title": "About me",
-    "bio_1": "I'm Raúl Rivero Matesanz — a DevOps & Cloud Engineer with 4+ years building and operating production systems on AWS, Azure, and GCP. Software Engineering graduate (UPM) with international experience (Hanze University, Groningen). I specialize in reliability, automation, and infrastructure as code: pipelines, Terraform, containers, and observability that keep engineering teams unblocked. I communicate clearly across technical and business stakeholders and gravitate toward technical leadership and architecture decisions.",
+    "bio_1": "I'm Raúl Rivero Matesanz — a DevOps & Cloud Engineer with almost 5 years building and operating production systems on AWS, Azure, and GCP. Software Engineering graduate (UPM) with international experience (Hanze University, Groningen). I specialize in reliability, automation, and infrastructure as code: pipelines, Terraform, containers, and observability that keep engineering teams unblocked. I communicate clearly across technical and business stakeholders and gravitate toward technical leadership and architecture decisions.",
     "bio_2": "Based in Madrid. English C1 (PTE Academic) · Spanish native — effective in international, English-first environments.",
     "education_label": "Education",
     "certs_label": "Certifications",
@@ -109,6 +109,6 @@
     "rights": "All rights reserved"
   },
   "meta": {
-    "description": "Raúl Rivero — DevOps & Cloud Engineer (AWS, Azure, GCP). CI/CD, infrastructure as code, Kubernetes, observability, and platform reliability. 4+ years. Open to technical leadership roles."
+    "description": "Raúl Rivero — DevOps & Cloud Engineer (AWS, Azure, GCP). CI/CD, infrastructure as code, Kubernetes, observability, and platform reliability. Almost 5 years. Open to technical leadership roles."
   }
 }

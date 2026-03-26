@@ -19,7 +19,7 @@ const languages = [
 ]
 
 const stats = [
-  { value: '4+', key: 'stat_exp' },
+  { value: 'casi 5', key: 'stat_exp' },
   { value: '5',  key: 'stat_companies' },
   { value: '3',  key: 'stat_certs' },
 ]
