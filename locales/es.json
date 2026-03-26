@@ -17,7 +17,7 @@
   },
   "about": {
     "title": "Sobre mí",
-    "bio_1": "Soy Raúl Rivero Matesanz — ingeniero DevOps & Cloud con casi 5 años construyendo y operando sistemas en producción en AWS, Azure y GCP. Ingeniero de Software por la UPM con experiencia internacional (Hanze University, Groningen). Me especializo en fiabilidad, automatización e infraestructura como código: pipelines, Terraform, contenedores y observabilidad que desbloquean a los equipos de desarrollo. Comunico con claridad con perfiles técnicos y de negocio y me oriento a liderazgo técnico y decisiones de arquitectura.",
+    "bio_1": "Soy Raúl Rivero Matesanz — ingeniero DevOps & Cloud con 5 años construyendo y operando sistemas en producción en AWS, Azure y GCP. Ingeniero de Software por la UPM con experiencia internacional (Hanze University, Groningen). Me especializo en fiabilidad, automatización e infraestructura como código: pipelines, Terraform, contenedores y observabilidad que desbloquean a los equipos de desarrollo. Comunico con claridad con perfiles técnicos y de negocio y me oriento a liderazgo técnico y decisiones de arquitectura.",
     "bio_2": "Vivo en Madrid. Inglés C1 (PTE Academic) · español nativo — cómodo en entornos internacionales en inglés.",
     "education_label": "Formación",
     "certs_label": "Certificaciones",
@@ -55,6 +55,8 @@
       "agile": "Agile",
       "scrum": "Scrum",
       "cicd": "CI/CD",
+      "iac": "IaC",
+      "terraform": "Terraform",
       "blameless": "Postmortems sin culpa",
       "sre_culture": "Fiabilidad y SRE",
       "shift_left": "Shift-left"
@@ -109,6 +111,6 @@
     "rights": "Todos los derechos reservados"
   },
   "meta": {
-    "description": "Raúl Rivero — DevOps & Cloud Engineer (AWS, Azure, GCP). CI/CD, infraestructura como código, Kubernetes, observabilidad y fiabilidad de plataforma. Casi 5 años. Abierto a roles de liderazgo técnico."
+    "description": "Raúl Rivero — DevOps & Cloud Engineer (AWS, Azure, GCP). CI/CD, infraestructura como código, Kubernetes, observabilidad y fiabilidad de plataforma. 5 años. Abierto a roles de liderazgo técnico."
   }
 }

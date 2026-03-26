@@ -10,10 +10,10 @@ const techCategories = [
     skills: ['AWS', 'Azure', 'GCP'],
   },
   {
-    nameEs: 'Infra como código',
-    nameEn: 'Infrastructure as code',
+    nameEs: 'IaC e infraestructura',
+    nameEn: 'IaC & infrastructure',
     icon: 'i-lucide-layers',
-    skills: ['Terraform', 'Ansible', 'Packer'],
+    skills: ['IaC', 'Terraform', 'Ansible', 'Packer'],
   },
   {
     nameEs: 'Contenedores',
@@ -45,6 +45,8 @@ const methodologyItems = [
   { key: 'agile' as const, icon: 'i-lucide-zap' },
   { key: 'scrum' as const, icon: 'i-lucide-clipboard-list' },
   { key: 'cicd' as const, icon: 'i-lucide-workflow' },
+  { key: 'iac' as const, icon: 'i-lucide-layers' },
+  { key: 'terraform' as const, icon: 'i-lucide-blocks' },
   { key: 'blameless' as const, icon: 'i-lucide-heart-pulse' },
   { key: 'sre_culture' as const, icon: 'i-lucide-shield-check' },
   { key: 'shift_left' as const, icon: 'i-lucide-scan-search' },
@@ -100,7 +102,7 @@ const methodologyItems = [
           class="pointer-events-none absolute -inset-3 -z-10 rounded-2xl bg-gradient-to-br from-steel-500/[0.06] via-transparent to-zinc-300/15 dark:from-steel-400/[0.05] dark:to-zinc-800/35 blur-xl"
           aria-hidden="true"
         />
-        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-3">
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-2.5 sm:gap-3">
           <div
             v-for="item in methodologyItems"
             :key="item.key"
