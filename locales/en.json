@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "stack": "Stack",
+    "philosophy": "Philosophy",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "DevOps & Software Engineer",
+    "tagline": "I design systems and infrastructure; I automate and ship software that works.",
+    "cta_projects": "View projects",
+    "cta_contact": "Get in touch",
+    "cta_cv": "Download CV"
+  },
+  "about": {
+    "title": "About me",
+    "bio_1": "I'm Raúl Rivero Matesanz, a Software Engineer from UPM, with an Erasmus stay at Hanze University (Groningen, Feb–Jun 2022). I've been in DevOps since 2021. At Lacía I focus on platform support and operations on Azure—pipelines, deployments, and keeping infra dependable for developers.",
+    "bio_2": "I live in Madrid, in Ensanche de Vallecas, on my own since May 2024. I share my home with Kali, a dog adopted in August 2024. I'm passionate about automation, CI/CD, and cloud architecture; I like leaving systems clear and maintainable.",
+    "education_label": "Education",
+    "certs_label": "Certifications",
+    "langs_label": "Languages",
+    "interests_label": "Interests",
+    "interests_value": "Live music · Fantasy literature · Calisthenics · Volunteering",
+    "soft_skills_label": "Soft skills",
+    "soft_skill_1": "Clear communication with technical and business teams: turning problems into concrete actions.",
+    "soft_skill_2": "Teamwork and collaboration in agile settings, prioritising shared outcomes.",
+    "soft_skill_3": "Adaptability when priorities, incidents, or tools change.",
+    "soft_skill_4": "Systems thinking: weighing impact on pipelines, operations, and users before deciding.",
+    "stat_exp": "years experience",
+    "stat_companies": "companies",
+    "stat_certs": "certifications"
+  },
+  "projects": {
+    "title": "Projects",
+    "view": "View project"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "stack": {
+    "title": "Stack",
+    "tech_subtitle": "Technologies",
+    "methods_subtitle": "Methodologies",
+    "methodology": {
+      "agile": "Agile",
+      "scrum": "Scrum",
+      "cicd": "CI/CD",
+      "code_review": "Code reviews"
+    }
+  },
+  "philosophy": {
+    "title": "How I work",
+    "value_delivery": {
+      "title": "Shipping value early",
+      "body": "I favour small, frequent releases that unblock others: less waiting, real feedback sooner, and less batch risk."
+    },
+    "observability": {
+      "title": "Observability",
+      "body": "Without visibility there is no sustainable improvement: metrics, logs, and traces used well cut diagnosis time and reduce blind firefighting."
+    },
+    "iteration": {
+      "title": "Iteration and continuous improvement",
+      "body": "Each cycle should leave the system slightly better: automate repetition, document gaps, and refine process with what production teaches."
+    },
+    "testing": {
+      "title": "Testing",
+      "body": "Tests are not optional extras—they are the safety net that lets you change with confidence, from pipelines to checks that protect what matters."
+    },
+    "documentation": {
+      "title": "Documentation",
+      "body": "What is not written is forgotten or trapped in one person. Short, up-to-date, discoverable docs are part of the product, not an afterthought."
+    },
+    "judgment": {
+      "title": "Judgment and tooling",
+      "body": "I evaluate new tools with the same rigor as a production change: cost, time, vendor lock-in, and privacy. I don't adopt trends for their own sake; what matters is maintainability and clear boundaries for sensitive data."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "read_more": "Read more",
+    "empty": "No published posts yet. Export from the backoffice and use snapshot.json or NUXT_PUBLIC_SNAPSHOT_URL."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Want to talk about a project, an opportunity, or just connect?",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Message sent. Thank you!",
+    "error": "Failed to send. Please try again.",
+    "mailto_hint": "Your email client will open with the message ready to send.",
+    "email_not_configured": "Email sending is not configured for this deployment. Use GitHub or LinkedIn.",
+    "mail_subject": "Portfolio contact"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "meta": {
+    "description": "Portfolio of Raúl Rivero — DevOps & Software Engineer"
+  }
+}

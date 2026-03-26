@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "stack": "Stack",
+    "philosophy": "Filosofía",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "role": "DevOps & Software Engineer",
+    "tagline": "Diseño sistemas e infraestructura; automatizo y entrego software que funciona.",
+    "cta_projects": "Ver proyectos",
+    "cta_contact": "Contactar",
+    "cta_cv": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "bio_1": "Soy Raúl Rivero Matesanz, Ingeniero de Software por la UPM, con Erasmus en Hanze University (Groningen, febrero–junio 2022). Llevo en DevOps desde 2021. En Lacía me centro en soporte y operación de la plataforma en Azure: pipelines, despliegues y que el día a día de infra sea fiable para quien desarrolla.",
+    "bio_2": "Vivo en Madrid, en el Ensanche de Vallecas, en solitario desde mayo de 2024. Comparto hogar con Kali, perra adoptada en agosto de 2024. Me apasiona la automatización, los pipelines CI/CD y las arquitecturas cloud; disfruto dejando sistemas claros y mantenibles.",
+    "education_label": "Formación",
+    "certs_label": "Certificaciones",
+    "langs_label": "Idiomas",
+    "interests_label": "Intereses",
+    "interests_value": "Música en directo · Literatura fantasy · Calistenia · Voluntariado",
+    "soft_skills_label": "Soft skills",
+    "soft_skill_1": "Comunicación clara con equipos técnicos y de negocio: traducir problemas a acciones concretas.",
+    "soft_skill_2": "Trabajo en equipo y colaboración en entornos ágiles, priorizando el resultado compartido.",
+    "soft_skill_3": "Adaptabilidad ante cambios de prioridades, incidentes y nuevas herramientas.",
+    "soft_skill_4": "Pensamiento sistémico: ver el impacto en pipeline, operación y usuarios antes de decidir.",
+    "stat_exp": "años de experiencia",
+    "stat_companies": "empresas",
+    "stat_certs": "certificaciones"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "view": "Ver proyecto"
+  },
+  "experience": {
+    "title": "Experiencia"
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "stack": {
+    "title": "Stack",
+    "tech_subtitle": "Tecnologías",
+    "methods_subtitle": "Metodologías",
+    "methodology": {
+      "agile": "Agile",
+      "scrum": "Scrum",
+      "cicd": "CI/CD",
+      "code_review": "Revisiones de código"
+    }
+  },
+  "philosophy": {
+    "title": "Filosofía de trabajo",
+    "value_delivery": {
+      "title": "Entregar valor rápido",
+      "body": "Priorizo entregas pequeñas y frecuentes que desbloqueen a otros: menos espera, más feedback real y menos riesgo acumulado."
+    },
+    "observability": {
+      "title": "Observabilidad",
+      "body": "Sin visibilidad no hay mejora estable: métricas, logs y trazas bien usados reducen tiempo de diagnóstico y evitan apagar fuegos a ciegas."
+    },
+    "iteration": {
+      "title": "Iteración y mejora continua",
+      "body": "Cada ciclo deja el sistema un poco mejor que antes: automatizar lo repetido, documentar lo que falta y ajustar procesos con lo aprendido en producción."
+    },
+    "testing": {
+      "title": "Testing",
+      "body": "Las pruebas no son un extra: son la red que permite cambiar con confianza, desde pipelines hasta checks que protegen lo crítico para el negocio."
+    },
+    "documentation": {
+      "title": "Documentación",
+      "body": "Lo que no está escrito se olvida o depende de una sola persona. Documentación breve, actualizada y accesible es parte del producto, no un apéndice."
+    },
+    "judgment": {
+      "title": "Criterio y herramientas",
+      "body": "Evalúo herramientas nuevas con el mismo rigor que un cambio en producción: coste, tiempo, dependencia del proveedor y privacidad. No adopto nada por moda; lo que importa es que el equipo pueda mantenerlo y que los datos sensibles estén acotados."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "read_more": "Leer más",
+    "empty": "Aún no hay entradas publicadas. Exporta el blog desde el backoffice y coloca snapshot.json o configura NUXT_PUBLIC_SNAPSHOT_URL."
+  },
+  "contact": {
+    "title": "Contacto",
+    "intro": "¿Quieres hablar sobre un proyecto, una oportunidad o simplemente conectar?",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "success": "Mensaje enviado. ¡Gracias!",
+    "error": "Error al enviar. Inténtalo de nuevo.",
+    "mailto_hint": "Se abrirá tu cliente de correo con el mensaje preparado.",
+    "email_not_configured": "El envío por correo no está configurado en este despliegue. Usa GitHub o LinkedIn.",
+    "mail_subject": "Contacto portfolio"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  },
+  "meta": {
+    "description": "Portfolio profesional de Raúl Rivero — DevOps & Software Engineer"
+  }
+}

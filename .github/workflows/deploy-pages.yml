@@ -1,0 +1,71 @@
+# Despliega el sitio estático (nuxt generate) a GitHub Pages.
+# Repo: Settings → Pages → Build: GitHub Actions.
+#
+# URL pública:
+# - Repo <owner>.github.io (p. ej. RaulRiv.github.io) → https://<owner>.github.io/
+# - Otro nombre → https://<owner>.github.io/<repo>/
+#
+# Variables de repositorio (Settings → Secrets and variables → Actions → Variables),
+# opcionales salvo que quieras contacto por mailto o botón de CV en producción:
+#   NUXT_PUBLIC_CONTACT_EMAIL — destino del formulario de contacto
+#   NUXT_PUBLIC_CV_URL — p. ej. /cv.pdf si subes public/cv.pdf, o URL absoluta
+
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Site URL for SEO (canonical, sitemap, og:url)
+        run: |
+          OWNER_LC=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          REPO="${{ github.event.repository.name }}"
+          PAGES_REPO="${OWNER_LC}.github.io"
+          if [ "$(echo "$REPO" | tr '[:upper:]' '[:lower:]')" = "$PAGES_REPO" ]; then
+            URL="https://${OWNER_LC}.github.io"
+          else
+            URL="https://${OWNER_LC}.github.io/${REPO}"
+          fi
+          echo "NUXT_PUBLIC_SITE_URL=$URL" >> "$GITHUB_ENV"
+          echo "Using $URL"
+
+      - run: npm ci
+      - run: npm run generate
+        env:
+          NUXT_PUBLIC_CONTACT_EMAIL: ${{ vars.NUXT_PUBLIC_CONTACT_EMAIL }}
+          NUXT_PUBLIC_CV_URL: ${{ vars.NUXT_PUBLIC_CV_URL }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .output/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

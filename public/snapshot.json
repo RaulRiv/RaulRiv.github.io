@@ -1,0 +1,71 @@
+{
+  "projects": [
+    {
+      "id": "backoffice",
+      "titulo": "Backoffice",
+      "descripcion": "API REST (FastAPI) y portal web (Vue) para gestionar el ecosistema: usuarios, contenido de la web personal, export de snapshot público y operaciones comunes del hub central.",
+      "descripcion_en": "REST API (FastAPI) and web portal (Vue) to manage the ecosystem: users, personal site content, public snapshot export, and common hub operations.",
+      "tecnologias": ["Python", "FastAPI", "Vue 3", "TypeScript", "Vite", "SQLAlchemy"],
+      "repo": null,
+      "deploy": null,
+      "estado": null,
+      "publicado": true,
+      "orden": 1
+    },
+    {
+      "id": "orquestador",
+      "titulo": "Orquestador",
+      "descripcion": "Servicio de orquestación y su consola: arranque, build, health checks y despliegue local/docker de los servicios por entorno y tenant.",
+      "descripcion_en": "Orchestration service and console: start, build, health checks, and local/docker deploy of services per environment and tenant.",
+      "tecnologias": ["Python", "FastAPI", "Vue 3", "TypeScript", "Vite", "Docker"],
+      "repo": null,
+      "deploy": null,
+      "estado": null,
+      "publicado": true,
+      "orden": 2
+    },
+    {
+      "id": "monitor",
+      "titulo": "Monitor",
+      "descripcion": "Observabilidad: API de métricas (FastAPI) y stack Prometheus, Grafana, Loki, Promtail, node-exporter y cAdvisor para métricas, dashboards y logs.",
+      "descripcion_en": "Observability: metrics API (FastAPI) plus Prometheus, Grafana, Loki, Promtail, node-exporter, and cAdvisor for metrics, dashboards, and logs.",
+      "tecnologias": ["Python", "FastAPI", "Prometheus", "Grafana", "Loki", "Promtail", "node-exporter", "cAdvisor", "Docker"],
+      "repo": null,
+      "deploy": null,
+      "estado": null,
+      "publicado": true,
+      "orden": 3
+    },
+    {
+      "id": "knowledge-manager",
+      "titulo": "Knowledge manager",
+      "descripcion": "Motor de conocimiento del ecosistema: bases de conocimiento, integración planificada vía MCP; servicio knowledge (FastAPI).",
+      "descripcion_en": "Knowledge engine for the ecosystem: knowledge bases, planned MCP integration; knowledge service (FastAPI).",
+      "tecnologias": ["Python", "FastAPI", "Docker"],
+      "repo": null,
+      "deploy": null,
+      "estado": null,
+      "publicado": true,
+      "orden": 4
+    },
+    {
+      "id": "portfolio-github-pages",
+      "titulo": "Web personal (GitHub Pages)",
+      "descripcion": "Portfolio profesional estático con Nuxt 3: i18n (ES/EN), secciones de proyectos y experiencia, y despliegue automático en la raíz de GitHub Pages vía GitHub Actions.",
+      "descripcion_en": "Static professional portfolio with Nuxt 3: i18n (EN/ES), projects and experience sections, and automated deploy to the GitHub Pages site root via GitHub Actions.",
+      "tecnologias": ["Nuxt 3", "Vue 3", "TypeScript", "Tailwind CSS", "GitHub Actions", "GitHub Pages"],
+      "repo": "https://github.com/RaulRiv/RaulRiv.github.io",
+      "deploy": "https://raulriv.github.io",
+      "estado": null,
+      "publicado": true,
+      "orden": 5
+    }
+  ],
+  "content": {
+    "bio": null,
+    "skills": null,
+    "experiencia": null
+  },
+  "blog": [],
+  "generated_at": "2026-03-25T12:00:00.000000+00:00"
+}

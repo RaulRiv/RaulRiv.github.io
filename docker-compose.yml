@@ -1,0 +1,9 @@
+services:
+  portfolio:
+    build: .
+    ports:
+      - "${PORTFOLIO_PORT:-3001}:3001"
+    environment:
+      NUXT_HOST: 0.0.0.0
+      NUXT_PORT: "3001"
+      NUXT_PUBLIC_SNAPSHOT_URL: "${NUXT_PUBLIC_SNAPSHOT_URL:-}"
