@@ -8,11 +8,17 @@ const experience = [
     roleEn: 'DevOps Manager',
     periodEs: 'Abr 2025 – Presente',
     periodEn: 'Apr 2025 – Present',
-    descriptionEs:
-      'Soporte y operación de la plataforma cloud en Azure: pipelines, despliegues, incidentes y mejora continua para que el equipo pueda entregar con estabilidad. Stack habitual: Azure, Terraform, Docker, Bitbucket.',
-    descriptionEn:
-      'Platform support and operations on Azure: pipelines, deployments, incidents, and continuous improvement so the team can ship reliably. Typical stack: Azure, Terraform, Docker, Bitbucket.',
-    stack: ['Azure', 'Terraform', 'Docker', 'Bitbucket'],
+    highlightsEs: [
+      'Dirijo operación y soporte de plataforma en Azure para equipos de producto: pipelines (Bitbucket), infra como código con Terraform y cargas en Docker.',
+      'Priorizo fiabilidad y cadencia de despliegue: gestión de incidentes, mejora continua y decisiones que reducen riesgo en releases.',
+      'Actúo como puente entre ingeniería y negocio: traduzco incidentes y cuellos de botella en planes de acción concretos.',
+    ],
+    highlightsEn: [
+      'Lead Azure platform operations for product teams: Bitbucket pipelines, Terraform-based infrastructure, and Dockerized workloads.',
+      'Prioritize reliability and release cadence: incident response, continuous improvement, and changes that reduce deployment risk.',
+      'Bridge engineering and stakeholders—turn incidents and bottlenecks into clear, actionable plans.',
+    ],
+    stack: ['Azure', 'Terraform', 'Docker', 'Bitbucket', 'CI/CD'],
     current: true,
   },
   {
@@ -21,10 +27,16 @@ const experience = [
     roleEn: 'DevOps Engineer',
     periodEs: 'May 2024 – Abr 2025',
     periodEn: 'May 2024 – Apr 2025',
-    descriptionEs:
-      'Entornos en Azure para sistemas de gestión de tráfico, con foco en observabilidad: métricas, alertas y fiabilidad de servicios en producción.',
-    descriptionEn:
-      'Azure environments for traffic management systems, with a focus on observability: metrics, alerts, and production service reliability.',
+    highlightsEs: [
+      'Construí bases de observabilidad en Azure para sistemas de gestión de tráfico: métricas, alertas y dashboards (Prometheus, Grafana).',
+      'Apoyé fiabilidad en producción acortando el tiempo hasta detectar degradaciones en servicios críticos.',
+      'Mantuve pipelines en GitLab y entornos contenedorizados (Docker/Kubernetes) para releases repetibles.',
+    ],
+    highlightsEn: [
+      'Built observability foundations on Azure for traffic-management systems: metrics, alerts, and Grafana dashboards.',
+      'Supported production reliability by improving visibility into service health and degradations.',
+      'Maintained GitLab pipelines and containerized workloads (Docker/Kubernetes) for repeatable releases.',
+    ],
     stack: ['Azure', 'GitLab', 'Prometheus', 'Grafana', 'Docker', 'Kubernetes'],
     current: false,
   },
@@ -34,11 +46,15 @@ const experience = [
     roleEn: 'DevOps Engineer',
     periodEs: 'Jul 2023 – May 2024',
     periodEn: 'Jul 2023 – May 2024',
-    descriptionEs:
-      'Automatización en arquitectura serverless en AWS: integración de flujos de negocio complejos de la industria y procesos de facturación, con énfasis en fiabilidad y trazabilidad.',
-    descriptionEn:
-      'Automation on AWS serverless architectures: integrating complex industry business flows and billing processes, with emphasis on reliability and traceability.',
-    stack: ['AWS', 'Lambda', 'Terraform', 'GitLab'],
+    highlightsEs: [
+      'Automaticé flujos serverless en AWS para procesos industriales y de facturación con Terraform y GitLab CI.',
+      'Enfaticé trazabilidad y fiabilidad en integraciones complejas, reduciendo pasos manuales en despliegues.',
+    ],
+    highlightsEn: [
+      'Automated AWS serverless workflows for industry and billing integrations using Terraform and GitLab CI.',
+      'Emphasized traceability and reliability in complex integrations while cutting manual deployment steps.',
+    ],
+    stack: ['AWS', 'Lambda', 'Terraform', 'GitLab', 'CI/CD'],
     current: false,
   },
   {
@@ -47,11 +63,17 @@ const experience = [
     roleEn: 'DevOps Engineer',
     periodEs: 'Nov 2022 – Jul 2023',
     periodEn: 'Nov 2022 – Jul 2023',
-    descriptionEs:
-      'Infraestructura en AWS en innovación 5G: integración de VAS y pipelines críticas; posteriormente en OpenGateway, con pruebas de concepto y adopción temprana junto a early adopters.',
-    descriptionEn:
-      'AWS infrastructure in 5G innovation: integrating VAS and critical pipelines; later on OpenGateway, running POCs and early adopter engagements.',
-    stack: ['AWS', 'GitHub', 'Jenkins', 'Docker', 'Kubernetes'],
+    highlightsEs: [
+      'Desplegué y mantuve infraestructura AWS en innovación 5G: integración de VAS y pipelines críticos.',
+      'En OpenGateway lideré pruebas de concepto y acompañamiento a early adopters para acelerar adopción.',
+      'Entregué con Jenkins, GitHub y Kubernetes/Docker en entornos de alta exigencia operativa.',
+    ],
+    highlightsEn: [
+      'Delivered and maintained AWS infrastructure for 5G innovation: VAS integration and critical delivery pipelines.',
+      'On OpenGateway, ran POCs and early-adopter engagements to speed adoption.',
+      'Shipped with Jenkins, GitHub, and Docker/Kubernetes in high-operational-tempo settings.',
+    ],
+    stack: ['AWS', 'GitHub', 'Jenkins', 'Docker', 'Kubernetes', 'CI/CD'],
     current: false,
   },
   {
@@ -60,10 +82,16 @@ const experience = [
     roleEn: 'DevOps Engineer · Scrum Master',
     periodEs: 'Abr 2021 – Nov 2022',
     periodEn: 'Apr 2021 – Nov 2022',
-    descriptionEs:
-      'Primera experiencia profesional en startup de recruiting: DevOps y Scrum Master. Infraestructura en GCP y Kubernetes, automatización y coordinación de entregas.',
-    descriptionEn:
-      'First role at a recruiting startup: DevOps and Scrum Master. Infrastructure on GCP and Kubernetes, automation, and delivery coordination.',
+    highlightsEs: [
+      'Combiné rol de Scrum Master con DevOps en GCP: Kubernetes, Docker y pipelines para un equipo en crecimiento.',
+      'Establecí prácticas de observabilidad (ELK) y calidad (Cypress en CI) para feedback rápido en cada iteración.',
+      'Coordiné entregas y ceremonias ágiles manteniendo foco en automatización y deuda técnica visible.',
+    ],
+    highlightsEn: [
+      'Combined Scrum Master and DevOps on GCP: Kubernetes, Docker, and CI for a growing team.',
+      'Introduced observability (ELK) and quality gates (Cypress in CI) for fast feedback each sprint.',
+      'Coordinated delivery and agile ceremonies while driving automation and visible technical debt management.',
+    ],
     stack: ['GCP', 'Kubernetes', 'Docker', 'GitHub', 'ELK Stack', 'Cypress'],
     current: false,
   },
@@ -131,13 +159,18 @@ const experience = [
                 </UBadge>
               </div>
 
-              <p class="text-steel-600 dark:text-steel-400 font-medium text-sm mb-2">
+              <p class="text-steel-600 dark:text-steel-400 font-medium text-sm mb-3">
                 {{ job.company }}
               </p>
 
-              <p class="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed mb-3">
-                {{ locale === 'es' ? job.descriptionEs : job.descriptionEn }}
-              </p>
+              <ul class="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed mb-3 space-y-2 list-disc pl-4 marker:text-steel-500 dark:marker:text-steel-400">
+                <li
+                  v-for="(line, idx) in (locale === 'es' ? job.highlightsEs : job.highlightsEn)"
+                  :key="idx"
+                >
+                  {{ line }}
+                </li>
+              </ul>
 
               <div class="flex flex-wrap gap-1.5">
                 <span

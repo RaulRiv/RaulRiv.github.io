@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "About",
+    "value": "What I bring",
     "projects": "Projects",
     "experience": "Experience",
     "stack": "Stack",
@@ -8,29 +9,33 @@
     "contact": "Contact"
   },
   "hero": {
-    "role": "DevOps & Software Engineer",
-    "tagline": "I design systems and infrastructure; I automate and ship software that works.",
+    "role": "DevOps & Cloud Engineer · Platform & Reliability",
+    "tagline": "I design and run cloud infrastructure, CI/CD, and observability so teams deliver software that stays reliable in production.",
     "cta_projects": "View projects",
     "cta_contact": "Get in touch",
     "cta_cv": "Download CV"
   },
   "about": {
     "title": "About me",
-    "bio_1": "I'm Raúl Rivero Matesanz, a Software Engineer from UPM, with an Erasmus stay at Hanze University (Groningen, Feb–Jun 2022). I've been in DevOps since 2021. At Lacía I focus on platform support and operations on Azure—pipelines, deployments, and keeping infra dependable for developers.",
-    "bio_2": "I live in Madrid, in Ensanche de Vallecas, on my own since May 2024. I share my home with Kali, a dog adopted in August 2024. I'm passionate about automation, CI/CD, and cloud architecture; I like leaving systems clear and maintainable.",
+    "bio_1": "I'm Raúl Rivero Matesanz — a DevOps & Cloud Engineer with 4+ years building and operating production systems on AWS, Azure, and GCP. Software Engineering graduate (UPM) with international experience (Hanze University, Groningen). I specialize in reliability, automation, and infrastructure as code: pipelines, Terraform, containers, and observability that keep engineering teams unblocked. I communicate clearly across technical and business stakeholders and gravitate toward technical leadership and architecture decisions.",
+    "bio_2": "Based in Madrid. English C1 (PTE Academic) · Spanish native — effective in international, English-first environments.",
     "education_label": "Education",
     "certs_label": "Certifications",
     "langs_label": "Languages",
     "interests_label": "Interests",
     "interests_value": "Live music · Fantasy literature · Calisthenics · Volunteering",
-    "soft_skills_label": "Soft skills",
-    "soft_skill_1": "Clear communication with technical and business teams: turning problems into concrete actions.",
-    "soft_skill_2": "Teamwork and collaboration in agile settings, prioritising shared outcomes.",
-    "soft_skill_3": "Adaptability when priorities, incidents, or tools change.",
-    "soft_skill_4": "Systems thinking: weighing impact on pipelines, operations, and users before deciding.",
     "stat_exp": "years experience",
     "stat_companies": "companies",
     "stat_certs": "certifications"
+  },
+  "value": {
+    "title": "What I bring",
+    "point_1": "Hands-on multi-cloud delivery: AWS, Azure, and GCP with Terraform, containers, and infrastructure automation.",
+    "point_2": "CI/CD ownership across GitLab, GitHub, Bitbucket, and Jenkins — pipelines aligned to how the team actually ships.",
+    "point_3": "Observability and reliability: metrics, logs, and dashboards that reduce time to detect and diagnose production issues.",
+    "point_4": "Strong communication: translating incidents, risk, and trade-offs into priorities both sides can act on.",
+    "point_5": "Systems thinking: balancing speed, security, cost, and maintainability before changing critical paths.",
+    "point_6": "Leadership trajectory: DevOps Manager today; former Scrum Master in a fast-moving startup — delivery discipline plus technical depth."
   },
   "projects": {
     "title": "Projects",
@@ -43,8 +48,8 @@
     "title": "Skills"
   },
   "stack": {
-    "title": "Stack",
-    "tech_subtitle": "Technologies",
+    "title": "Stack & tooling",
+    "tech_subtitle": "Cloud · Infrastructure · Delivery · Observability",
     "methods_subtitle": "Methodologies",
     "methodology": {
       "agile": "Agile",
@@ -102,6 +107,6 @@
     "rights": "All rights reserved"
   },
   "meta": {
-    "description": "Portfolio of Raúl Rivero — DevOps & Software Engineer"
+    "description": "Raúl Rivero — DevOps & Cloud Engineer (AWS, Azure, GCP). CI/CD, infrastructure as code, Kubernetes, observability, and platform reliability. 4+ years. Open to technical leadership roles."
   }
 }

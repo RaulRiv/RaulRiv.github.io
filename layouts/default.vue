@@ -16,6 +16,7 @@ const scrolled = ref(false)
 
 const navItems = computed(() => [
   { label: t('nav.about'),      href: '#about' },
+  { label: t('nav.value'),      href: '#value' },
   { label: t('nav.projects'),   href: '#projects' },
   { label: t('nav.experience'), href: '#experience' },
   { label: t('nav.stack'),      href: '#stack' },

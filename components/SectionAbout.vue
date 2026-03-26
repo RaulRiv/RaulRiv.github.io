@@ -79,23 +79,6 @@ const stats = [
             </p>
           </div>
 
-          <!-- Soft skills -->
-          <div>
-            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-600 mb-4">
-              {{ t('about.soft_skills_label') }}
-            </p>
-            <ul class="space-y-2">
-              <li
-                v-for="i in 4"
-                :key="i"
-                class="flex items-start gap-3 text-sm text-gray-600 dark:text-gray-400 leading-relaxed"
-              >
-                <span class="mt-2 w-1.5 h-1.5 rounded-full bg-steel-400 shrink-0" />
-                {{ t(`about.soft_skill_${i}`) }}
-              </li>
-            </ul>
-          </div>
-
           <!-- Formación -->
           <div>
             <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-600 mb-4">

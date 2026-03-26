@@ -1,10 +1,11 @@
 <script setup lang="ts">
 const { t, locale } = useI18n()
 
+/** Ordered for ATS: cloud → automation → runtime → delivery → observability → languages */
 const techCategories = [
   {
     nameEs: 'Cloud',
-    nameEn: 'Cloud',
+    nameEn: 'Cloud platforms',
     icon: 'i-lucide-cloud',
     skills: ['AWS', 'Azure', 'GCP'],
   },
@@ -16,15 +17,21 @@ const techCategories = [
   },
   {
     nameEs: 'Contenedores',
-    nameEn: 'Containers',
+    nameEn: 'Containers & orchestration',
     icon: 'i-lucide-box',
     skills: ['Docker', 'Kubernetes'],
   },
   {
-    nameEs: 'Monitoring',
-    nameEn: 'Monitoring',
+    nameEs: 'CI/CD y Git',
+    nameEn: 'CI/CD & Git',
+    icon: 'i-lucide-git-branch',
+    skills: ['GitLab', 'GitHub', 'Bitbucket', 'Jenkins', 'GitHub Actions'],
+  },
+  {
+    nameEs: 'Observabilidad',
+    nameEn: 'Observability & monitoring',
     icon: 'i-lucide-activity',
-    skills: ['Prometheus', 'Grafana', 'ELK Stack', 'Zabbix'],
+    skills: ['Prometheus', 'Grafana', 'Loki', 'ELK Stack', 'Zabbix'],
   },
   {
     nameEs: 'Lenguajes',
@@ -37,7 +44,7 @@ const techCategories = [
 const methodologyItems = [
   { key: 'agile' as const, icon: 'i-lucide-zap' },
   { key: 'scrum' as const, icon: 'i-lucide-clipboard-list' },
-  { key: 'cicd' as const, icon: 'i-lucide-git-branch' },
+  { key: 'cicd' as const, icon: 'i-lucide-workflow' },
   { key: 'code_review' as const, icon: 'i-lucide-git-pull-request' },
 ]
 </script>

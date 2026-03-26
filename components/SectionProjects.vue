@@ -12,9 +12,9 @@ const staticProjects = [
     key: 'backoffice',
     title: 'Backoffice',
     descriptionEs:
-      'API REST (FastAPI) y portal web (Vue) para gestionar el ecosistema: usuarios, contenido de la web personal, export de snapshot público y operaciones comunes del hub central.',
+      'Plano de control interno: API FastAPI + portal Vue para usuarios, contenido del portfolio y export JSON público — gobierno centralizado sobre un ecosistema multi-servicio.',
     descriptionEn:
-      'REST API (FastAPI) and web portal (Vue) to manage the ecosystem: users, personal site content, public snapshot export, and common hub operations.',
+      'Internal control plane: FastAPI + Vue hub for users, portfolio content, and public JSON export—centralised governance across a multi-service ecosystem.',
     stack: ['Python', 'FastAPI', 'Vue 3', 'TypeScript', 'Vite', 'SQLAlchemy'],
     github: null,
     demo: null,
@@ -23,9 +23,9 @@ const staticProjects = [
     key: 'orquestador',
     title: 'Orquestador',
     descriptionEs:
-      'Servicio de orquestación y su consola: arranque, build, health checks y despliegue local/docker de los servicios por entorno y tenant.',
+      'Automatiza el ciclo de vida local de servicios por entorno y tenant: arranque, build, health checks y despliegue Docker — menos fricción operativa para equipos.',
     descriptionEn:
-      'Orchestration service and console: start, build, health checks, and local/docker deploy of services per environment and tenant.',
+      'Automates local service lifecycle by environment and tenant: start, build, health checks, and Docker deploy—less operational friction for teams.',
     stack: ['Python', 'FastAPI', 'Vue 3', 'TypeScript', 'Vite', 'Docker'],
     github: null,
     demo: null,
@@ -34,9 +34,9 @@ const staticProjects = [
     key: 'monitor',
     title: 'Monitor',
     descriptionEs:
-      'Observabilidad: API de métricas (FastAPI) y stack Prometheus, Grafana, Loki, Promtail, node-exporter y cAdvisor para métricas, dashboards y logs.',
+      'Capa de observabilidad: API de métricas y stack Prometheus, Grafana, Loki, Promtail y exporters — visibilidad unificada para diagnosticar antes de que escale el incidente.',
     descriptionEn:
-      'Observability: metrics API (FastAPI) plus Prometheus, Grafana, Loki, Promtail, node-exporter, and cAdvisor for metrics, dashboards, and logs.',
+      'Observability layer: metrics API plus Prometheus, Grafana, Loki, Promtail, and exporters—unified visibility to diagnose before incidents spread.',
     stack: ['Python', 'FastAPI', 'Prometheus', 'Grafana', 'Loki', 'Promtail', 'node-exporter', 'cAdvisor', 'Docker'],
     github: null,
     demo: null,
@@ -45,20 +45,20 @@ const staticProjects = [
     key: 'knowledge-manager',
     title: 'Knowledge manager',
     descriptionEs:
-      'Motor de conocimiento del ecosistema: bases de conocimiento, integración planificada vía MCP; servicio knowledge (FastAPI).',
+      'Servicio de conocimiento del ecosistema: bases de conocimiento y API FastAPI; integración MCP prevista para búsqueda y herramientas asistidas.',
     descriptionEn:
-      'Knowledge engine for the ecosystem: knowledge bases, planned MCP integration; knowledge service (FastAPI).',
+      'Ecosystem knowledge service: knowledge bases and FastAPI API; planned MCP integration for search and assisted tooling.',
     stack: ['Python', 'FastAPI', 'Docker'],
     github: null,
     demo: null,
   },
   {
     key: 'portfolio-github-pages',
-    title: 'Web personal (GitHub Pages)',
+    title: 'Portfolio (GitHub Pages)',
     descriptionEs:
-      'Portfolio profesional estático con Nuxt 3: i18n (ES/EN), secciones de proyectos y experiencia, y despliegue automático en la raíz de GitHub Pages vía GitHub Actions.',
+      'Sitio estático Nuxt con i18n, CI/CD en GitHub Actions y despliegue en raíz de Pages — ejemplo de pipeline reproducible y contenido versionado.',
     descriptionEn:
-      'Static professional portfolio with Nuxt 3: i18n (EN/ES), projects and experience sections, and automated deploy to the GitHub Pages site root via GitHub Actions.',
+      'Static Nuxt site with i18n, GitHub Actions CI/CD, and root Pages deploy—a reproducible pipeline with versioned content.',
     stack: ['Nuxt 3', 'Vue 3', 'TypeScript', 'Tailwind CSS', 'GitHub Actions', 'GitHub Pages'],
     github: 'https://github.com/RaulRiv/RaulRiv.github.io',
     demo: 'https://raulriv.github.io',

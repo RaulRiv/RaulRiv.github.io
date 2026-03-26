@@ -21,9 +21,9 @@ const cvUrl = computed(() => (config.public.cvUrl as string)?.trim() || '')
     <!-- Contenido -->
     <div class="max-w-3xl w-full text-center">
       <!-- Chip de rol -->
-      <div class="inline-flex items-center gap-2 mb-6">
-        <span class="w-1.5 h-1.5 rounded-full bg-steel-500 animate-pulse" />
-        <span class="text-sm font-medium text-steel-600 dark:text-steel-400 tracking-wide">
+      <div class="flex items-start justify-center gap-2 mb-6 max-w-2xl mx-auto px-4">
+        <span class="w-1.5 h-1.5 rounded-full bg-steel-500 animate-pulse shrink-0 mt-1.5" />
+        <span class="text-xs sm:text-sm font-medium text-steel-600 dark:text-steel-400 tracking-wide text-center sm:text-left leading-snug">
           {{ t('hero.role') }}
         </span>
       </div>
