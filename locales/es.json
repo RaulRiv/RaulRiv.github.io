@@ -55,7 +55,9 @@
       "agile": "Agile",
       "scrum": "Scrum",
       "cicd": "CI/CD",
-      "code_review": "Revisiones de código"
+      "blameless": "Postmortems sin culpa",
+      "sre_culture": "Fiabilidad y SRE",
+      "shift_left": "Shift-left"
     }
   },
   "philosophy": {

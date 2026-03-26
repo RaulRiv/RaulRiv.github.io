@@ -45,8 +45,10 @@ const methodologyItems = [
   { key: 'agile' as const, icon: 'i-lucide-zap' },
   { key: 'scrum' as const, icon: 'i-lucide-clipboard-list' },
   { key: 'cicd' as const, icon: 'i-lucide-workflow' },
-  { key: 'code_review' as const, icon: 'i-lucide-git-pull-request' },
-]
+  { key: 'blameless' as const, icon: 'i-lucide-heart-pulse' },
+  { key: 'sre_culture' as const, icon: 'i-lucide-shield-check' },
+  { key: 'shift_left' as const, icon: 'i-lucide-scan-search' },
+] as const
 </script>
 
 <template>
@@ -89,29 +91,27 @@ const methodologyItems = [
         </div>
       </div>
 
-      <p class="text-center text-sm font-semibold uppercase tracking-widest text-zinc-500 mb-8">
+      <p class="text-center text-xs font-semibold uppercase tracking-widest text-zinc-500 mb-5">
         {{ t('stack.methods_subtitle') }}
       </p>
 
-      <div class="relative max-w-4xl mx-auto">
+      <div class="relative max-w-5xl mx-auto">
         <div
-          class="pointer-events-none absolute -inset-4 -z-10 rounded-[2rem] bg-gradient-to-br from-steel-500/[0.07] via-transparent to-zinc-300/20 dark:from-steel-400/[0.06] dark:to-zinc-800/40 blur-2xl"
+          class="pointer-events-none absolute -inset-3 -z-10 rounded-2xl bg-gradient-to-br from-steel-500/[0.06] via-transparent to-zinc-300/15 dark:from-steel-400/[0.05] dark:to-zinc-800/35 blur-xl"
           aria-hidden="true"
         />
-        <div
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
-        >
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-3">
           <div
             v-for="item in methodologyItems"
             :key="item.key"
-            class="group flex flex-col items-center text-center rounded-2xl border border-zinc-200/90 dark:border-zinc-800 bg-gradient-to-b from-white to-zinc-50/90 dark:from-zinc-900 dark:to-zinc-950/90 px-5 py-7 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:border-steel-300/60 dark:hover:border-steel-600/50 hover:from-white hover:to-steel-50/40 dark:hover:to-steel-950/30"
+            class="group flex flex-col items-center text-center rounded-xl border border-zinc-200/90 dark:border-zinc-800 bg-gradient-to-b from-white to-zinc-50/80 dark:from-zinc-900 dark:to-zinc-950/90 px-2.5 py-3.5 sm:px-3 sm:py-4 shadow-sm transition-all duration-200 hover:border-steel-300/50 dark:hover:border-steel-600/45 hover:shadow-md"
           >
             <div
-              class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-steel-500/10 text-steel-600 ring-1 ring-steel-500/15 transition-transform duration-300 group-hover:scale-105 dark:bg-steel-400/10 dark:text-steel-300 dark:ring-steel-400/20"
+              class="mb-2 flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-xl bg-steel-500/10 text-steel-600 ring-1 ring-steel-500/12 dark:bg-steel-400/10 dark:text-steel-300 dark:ring-steel-400/18"
             >
-              <UIcon :name="item.icon" class="w-7 h-7" />
+              <UIcon :name="item.icon" class="w-5 h-5 sm:w-[1.35rem] sm:h-[1.35rem]" />
             </div>
-            <p class="text-sm font-semibold leading-snug text-zinc-900 dark:text-white">
+            <p class="text-[0.7rem] sm:text-xs font-semibold leading-tight text-zinc-900 dark:text-white px-0.5">
               {{ t(`stack.methodology.${item.key}`) }}
             </p>
           </div>
